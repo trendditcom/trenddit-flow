@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "trenddit-flow"
+version = "0.1.0"
+description = ""
+authors = ["Trenddit Team <team@trenddit.com>"]
+readme = "README.md"
+packages = [{include = "trenddit_flow", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+strands-agents = "^0.2.1"
+strands-agents-tools = "^0.1.8"
+strands-agents-builder = "^0.1.5"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

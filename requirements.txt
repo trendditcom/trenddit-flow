@@ -1,0 +1,20 @@
+# LLM SDKs and APIs
+openai>=1.30.0  # OpenAI API client
+anthropic>=0.25.0  # Anthropic Claude API client
+google-generativeai>=0.5.0  # Google Gemini API client
+
+# Additional dependencies for LLM development
+python-dotenv>=1.0.0  # Environment variable management
+requests>=2.31.0  # HTTP requests for API calls
+aiohttp>=3.9.0  # Async HTTP client
+pydantic>=2.0.0  # Data validation
+tiktoken>=0.5.0  # Token counting for OpenAI models
+
+# Utilities
+numpy>=1.24.0  # Numerical operations
+pandas>=2.0.0  # Data manipulation
+tqdm>=4.66.0  # Progress bars
+rich>=13.0.0  # Rich text formatting
+
+# For xAI (Grok) - using OpenAI-compatible client
+# xAI uses OpenAI-compatible API, so openai package works
