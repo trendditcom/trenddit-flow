@@ -2,6 +2,20 @@
 
 The trenddit-flow package is a low code workflow automation SDK which uses AI agents and lean principles. It is built on top of popular AI agent frameworks like Strands Agents, LangChain, LangGraph, and native agent capabilities offered by leading foundation model APIs like OpenAI, Anthropic, xAI, and Gemini. It also offers easy integration with MCP and A2A standards for tool use by agents.
 
+### Specialized Workflows
+
+The trenddit-flow package specializes in **customer engagement lifecycle workflows** for B2B AI-backed technology businesses offering services to enterprises. Key workflow capabilities include:
+
+1. **Lead Generation** - AI agents search online sources and use LLMs to identify potential customers
+2. **Customer Research** - Deep analysis of customer needs, challenges, and technology/product adoption patterns
+3. **Solution Matching** - Intelligent matching of customer requirements with available technology offerings
+4. **Meeting Preparation** - Automated preparation of customer-specific presentations and talking points
+5. **Project Management Automation** - Streamlined customer project tracking and milestone management
+6. **Sales Playbook Generation** - Dynamic creation of sales strategies and playbooks tailored to specific customer segments
+7. **Competitive Analysis** - Automated research and analysis of competitive landscape for customer accounts
+8. **Proposal Generation** - AI-assisted creation of technical proposals and service offerings
+9. **Customer Success Workflows** - Post-sale engagement and success tracking automation
+
 ## Development Contexts
 
 - Use context7 for documentation of frameworks, libraries, packages
