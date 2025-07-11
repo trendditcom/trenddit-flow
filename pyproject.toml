@@ -11,6 +11,9 @@ python = "^3.12"
 strands-agents = "^0.2.1"
 strands-agents-tools = "^0.1.8"
 strands-agents-builder = "^0.1.5"
+langchain = "^0.3.26"
+langgraph = "^0.5.2"
+a2a-sdk = "^0.2.11"
 
 
 [tool.poetry.group.dev.dependencies]
