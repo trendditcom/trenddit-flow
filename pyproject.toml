@@ -14,6 +14,14 @@ strands-agents-builder = "^0.1.5"
 langchain = "^0.3.26"
 langgraph = "^0.5.2"
 a2a-sdk = "^0.2.11"
+openai = "^1.95.0"
+anthropic = "^0.57.1"
+langchain-openai = "^0.3.27"
+pandas = "^2.3.1"
+matplotlib = "^3.10.3"
+seaborn = "^0.13.2"
+python-dotenv = "^1.1.1"
+pyyaml = "^6.0.2"
 
 
 [tool.poetry.group.dev.dependencies]

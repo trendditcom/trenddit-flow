@@ -18,7 +18,58 @@ The trenddit-flow package specializes in **customer engagement lifecycle workflo
 
 ## Development Contexts
 
-- Use context7 for documentation of frameworks, libraries, packages
+### Documentation and API Reference Requirements
+
+**MANDATORY: Always use official documentation sources for implementation**
+
+When implementing framework, library, or API integrations, always refer to the official documentation:
+
+#### Framework and API Documentation Sources
+
+- **Strands Agents SDK**: https://strandsagents.com/latest/
+  - Official documentation for agent creation, execution, and production deployment
+  - Examples, API reference, and best practices
+
+- **LangChain**: https://python.langchain.com/api_reference/
+  - Comprehensive API reference for all LangChain components
+  - Integration guides and usage patterns
+
+- **xAI API**: https://docs.x.ai/docs/overview
+  - Official Grok API documentation and authentication
+  - Model capabilities and usage examples
+
+- **Gemini API**: https://ai.google.dev/gemini-api/docs
+  - Google's official Gemini API documentation
+  - Authentication, models, and multimodal capabilities
+
+- **OpenAI API**: https://platform.openai.com/docs/overview
+  - Official OpenAI API documentation and guides
+  - Model specifications and usage examples
+
+- **Claude API**: https://docs.anthropic.com/en/api/overview
+  - Anthropic's official Claude API documentation
+  - Authentication, models, and best practices
+
+### Implementation Protocol
+
+When implementing any framework, library, or API integration:
+
+1. **First Step**: Read the official documentation from the URLs above
+2. **Verify**: Check exact API signatures, parameters, and return types
+3. **Validate**: Confirm current model names, endpoints, and authentication methods
+4. **Implement**: Write code based on verified documentation
+5. **Test**: Validate implementation against documented behavior
+
+### Documentation Reading Strategy
+
+For implementation tasks:
+- Start with the official documentation links provided above
+- Use WebFetch tool to read specific documentation pages when needed
+- Cross-reference API references for accurate method signatures
+- Check for latest model names and capabilities
+- Review authentication and setup requirements
+
+This ensures all implementations are based on current, accurate documentation and prevents compatibility issues.
 
 ## Project Requirements
 
